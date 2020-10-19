@@ -1,0 +1,10 @@
+adminUser:
+  password: local:mytestproject/adminUser:password
+  username: fernandochew
+enableDocker: false
+pipelineUser:
+  email: ddacagent1@gmail.com
+  token: local:mytestproject/pipelineUser:token
+  username: ddacagent1
+prow:
+  hmacToken: local:mytestproject/prow:hmacToken
