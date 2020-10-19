@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: fernandochew
+  repo: jx-tutorial
+  url: https://github.com/fernandochew/jx-tutorial.git
+  version: ""
+  versionURL: ""
