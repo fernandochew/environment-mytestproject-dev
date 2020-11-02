@@ -1,35 +1,38 @@
 
-Showing logs for build [32mfernandochew-environment-mytest-x2882-1[0m stage [32mpr-checks[0m and container [32mcredential-initializer[0m
-{"level":"info","ts":1603087589.3646195,"caller":"creds-init/main.go:44","msg":"Credentials initialized."}
+Showing logs for build [32mfernandochew-environment-mytest-ctj7c-1[0m stage [32mpr-checks[0m and container [32mcredential-initializer[0m
+{"level":"info","ts":1604301584.3168247,"caller":"creds-init/main.go:44","msg":"Credentials initialized."}
 
-Showing logs for build [32mfernandochew-environment-mytest-x2882-1[0m stage [32mpr-checks[0m and container [32mworking-dir-initializer[0m
+Showing logs for build [32mfernandochew-environment-mytest-ctj7c-1[0m stage [32mpr-checks[0m and container [32mworking-dir-initializer[0m
 
-Showing logs for build [32mfernandochew-environment-mytest-x2882-1[0m stage [32mpr-checks[0m and container [32mplace-tools[0m
+Showing logs for build [32mfernandochew-environment-mytest-ctj7c-1[0m stage [32mpr-checks[0m and container [32mplace-tools[0m
 
-Showing logs for build [32mfernandochew-environment-mytest-x2882-1[0m stage [32mpr-checks[0m and container [32mstep-git-source-fernandochew-environment-mytest-x2882-cw4fn[0m
-{"level":"info","ts":1603087598.048479,"caller":"git/git.go:105","msg":"Successfully cloned https://github.com/************/environment-mytestproject-dev.git @ master in path /workspace/source"}
-{"level":"warn","ts":1603087598.048581,"caller":"git/git.go:152","msg":"Unexpected error: creating symlink: symlink /tekton/home/.ssh /root/.ssh: file exists"}
-{"level":"info","ts":1603087598.0877748,"caller":"git/git.go:133","msg":"Successfully initialized and updated submodules in path /workspace/source"}
+Showing logs for build [32mfernandochew-environment-mytest-ctj7c-1[0m stage [32mpr-checks[0m and container [32mstep-git-source-fernandochew-environment-mytest-ctj7c-wflgw[0m
+{"level":"info","ts":1604301605.6830118,"caller":"git/git.go:105","msg":"Successfully cloned https://github.com/************/environment-mytestproject-dev.git @ master in path /workspace/source"}
+{"level":"warn","ts":1604301605.6831756,"caller":"git/git.go:152","msg":"Unexpected error: creating symlink: symlink /tekton/home/.ssh /root/.ssh: file exists"}
+{"level":"info","ts":1604301605.763276,"caller":"git/git.go:133","msg":"Successfully initialized and updated submodules in path /workspace/source"}
 
-Showing logs for build [32mfernandochew-environment-mytest-x2882-1[0m stage [32mpr-checks[0m and container [32mstep-setup-builder-home[0m
+Showing logs for build [32mfernandochew-environment-mytest-ctj7c-1[0m stage [32mpr-checks[0m and container [32mstep-setup-builder-home[0m
 
-Showing logs for build [32mfernandochew-environment-mytest-x2882-1[0m stage [32mpr-checks[0m and container [32mstep-git-merge[0m
-Using SHAs from PULL_REFS=master:6e00430593d749a8e96f0543d7f1d4a023bdcc4b,1:0fffc7b608456653ddd9d037d4d45a8ba4d0f108
-DEBUG: LC_ALL=C JX_LOG_LEVEL=error git fetch origin --unshallow 0fffc7b608456653ddd9d037d4d45a8ba4d0f108: 6e00430593d749a8e96f0543d7f1d4a023bdcc4b:
-DEBUG: ran git fetch --unshallow origin 0fffc7b608456653ddd9d037d4d45a8ba4d0f108: 6e00430593d749a8e96f0543d7f1d4a023bdcc4b: in 
+Showing logs for build [32mfernandochew-environment-mytest-ctj7c-1[0m stage [32mpr-checks[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:d3b1220975011d5b20a424d54c1fc9c4eeada154,1:3c02ea950f18f44dbf8585c015a15cb5c5cc5362
+DEBUG: LC_ALL=C JX_LOG_LEVEL=error git fetch origin --unshallow 3c02ea950f18f44dbf8585c015a15cb5c5cc5362: d3b1220975011d5b20a424d54c1fc9c4eeada154:
+DEBUG: ran git fetch --unshallow origin 3c02ea950f18f44dbf8585c015a15cb5c5cc5362: d3b1220975011d5b20a424d54c1fc9c4eeada154: in 
 DEBUG: LC_ALL=C JX_LOG_LEVEL=error git branch
 DEBUG: LC_ALL=C JX_LOG_LEVEL=error git checkout master
 DEBUG: ran git checkout master in 
-DEBUG: LC_ALL=C JX_LOG_LEVEL=error git reset --hard 6e00430593d749a8e96f0543d7f1d4a023bdcc4b
-DEBUG: ran git reset --hard 6e00430593d749a8e96f0543d7f1d4a023bdcc4b in 
+DEBUG: JX_LOG_LEVEL=error LC_ALL=C git reset --hard d3b1220975011d5b20a424d54c1fc9c4eeada154
+DEBUG: ran git reset --hard d3b1220975011d5b20a424d54c1fc9c4eeada154 in 
 DEBUG: LC_ALL=C JX_LOG_LEVEL=error git clean -fd .
 DEBUG: ran clean --force -d . in 
-DEBUG: LC_ALL=C JX_LOG_LEVEL=error git merge 0fffc7b608456653ddd9d037d4d45a8ba4d0f108
-DEBUG: ran git merge 0fffc7b608456653ddd9d037d4d45a8ba4d0f108 in 
-DEBUG: LC_ALL=C JX_LOG_LEVEL=error git log --format=%H%x1f%an%x1f%ae%x1f%cn%x1f%ce%x1f%s%n%b%x1e 6e00430593d749a8e96f0543d7f1d4a023bdcc4b..HEAD
+DEBUG: LC_ALL=C JX_LOG_LEVEL=error git merge 3c02ea950f18f44dbf8585c015a15cb5c5cc5362
+DEBUG: ran git merge 3c02ea950f18f44dbf8585c015a15cb5c5cc5362 in 
+DEBUG: LC_ALL=C JX_LOG_LEVEL=error git log --format=%H%x1f%an%x1f%ae%x1f%cn%x1f%ce%x1f%s%n%b%x1e d3b1220975011d5b20a424d54c1fc9c4eeada154..HEAD
+Merged SHA 1df8adf7ba0432b8e9fcbbc8933e782bfd7e33ef with commit message 'Merge commit '3c02ea950f18f44dbf8585c015a15cb5c5cc5362'' into base branch master
+Merged SHA 3c02ea950f18f44dbf8585c015a15cb5c5cc5362 with commit message 'chore(deps): bump https://github.com/chew-org/gke-golang-http.git' into base branch master
+Merged SHA 6323de644e215048fd07b8f1abffd9d8eeaeb3a5 with commit message 'chore(config): update configuration' into base branch master
 Merged SHA 0fffc7b608456653ddd9d037d4d45a8ba4d0f108 with commit message 'chore(deps): bump https://github.com/************/**-tutorial.git' into base branch master
 
-Showing logs for build [32mfernandochew-environment-mytest-x2882-1[0m stage [32mpr-checks[0m and container [32mstep-verify-parameters[0m
+Showing logs for build [32mfernandochew-environment-mytest-ctj7c-1[0m stage [32mpr-checks[0m and container [32mstep-verify-parameters[0m
 error: resolve the secrets URIs: replacing secrets URIs: replacing vault paths in *****User:
   password: local:mytestproject/*****User:password
   username: ************
