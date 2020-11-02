@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[fernandochew/jx-tutorial](https://github.com/fernandochew/jx-tutorial.git) |  | []() | 
+[chew-org/gke-golang-http](https://github.com/chew-org/gke-golang-http.git) |  | []() | 

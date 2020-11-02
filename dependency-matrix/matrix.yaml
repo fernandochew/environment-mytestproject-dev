@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
-  owner: fernandochew
-  repo: jx-tutorial
-  url: https://github.com/fernandochew/jx-tutorial.git
+  owner: chew-org
+  repo: gke-golang-http
+  url: https://github.com/chew-org/gke-golang-http.git
   version: ""
   versionURL: ""

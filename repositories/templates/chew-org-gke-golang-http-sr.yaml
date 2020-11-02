@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: chew-org
+    provider: github
+    repository: gke-golang-http
+  name: chew-org-gke-golang-http
+spec:
+  description: Imported application for chew-org/gke-golang-http
+  httpCloneURL: https://github.com/chew-org/gke-golang-http.git
+  org: chew-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: gke-golang-http
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/chew-org/gke-golang-http.git
