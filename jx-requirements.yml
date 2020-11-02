@@ -15,10 +15,10 @@ cluster:
   project: concise-perigee-292609
   provider: gke
   registry: gcr.io
-  zone: asia-southeast1-a
+  zone: asia-northeast1-a
 environments:
 - ingress:
-    domain: 34.126.84.25.nip.io
+    domain: 34.84.164.74.nip.io
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
@@ -49,7 +49,7 @@ environments:
   repository: environment-mytestproject-production
 gitops: true
 ingress:
-  domain: 34.126.84.25.nip.io
+  domain: 34.84.164.74.nip.io
   externalDNS: false
   namespaceSubDomain: -jx.
   tls:
