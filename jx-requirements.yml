@@ -3,7 +3,7 @@ autoUpdate:
   schedule: ""
 bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-config.git
 cluster:
-  clusterName: k8s-jenkinsx
+  clusterName: mytestproject
   devEnvApprovers:
   - wenlong
   - ruizhe
@@ -26,7 +26,7 @@ environments:
       enabled: false
       production: false
   key: dev
-  repository: environment-k8s-jenkinsx-dev
+  repository: environment-mytestproject-dev
 - ingress:
     domain: ""
     externalDNS: false
@@ -36,7 +36,7 @@ environments:
       enabled: false
       production: false
   key: staging
-  repository: environment-k8s-jenkinsx-staging
+  repository: environment-mytestproject-staging
 - ingress:
     domain: ""
     externalDNS: false
@@ -46,7 +46,7 @@ environments:
       enabled: false
       production: false
   key: production
-  repository: environment-k8s-jenkinsx-production
+  repository: environment-mytestproject-production
 gitops: true
 ingress:
   domain: 34.84.164.74.nip.io
