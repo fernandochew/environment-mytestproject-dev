@@ -1,10 +1,10 @@
 adminUser:
-  password: local:mytestproject/adminUser:password
+  password: local:k8s-jenkinsx/adminUser:password
   username: fernandochew
 enableDocker: false
 pipelineUser:
   email: ddacagent1@gmail.com
-  token: local:mytestproject/pipelineUser:token
+  token: local:k8s-jenkinsx/pipelineUser:token
   username: ddacagent1
 prow:
-  hmacToken: local:mytestproject/prow:hmacToken
+  hmacToken: local:k8s-jenkinsx/prow:hmacToken
